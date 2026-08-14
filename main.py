@@ -35,4 +35,4 @@ def create_ticket_request(ticket_request: TicketRequest):
         "urgency": urgency_response.choices[0].message.content.strip().lower(),
         "department": department_response.choices[0].message.content.strip().lower()
     }
-#
+    
